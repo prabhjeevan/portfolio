@@ -124,3 +124,139 @@ float: right;
     padding: 5px 0;
     margin: 0px 0px 30px 0px;
 }
+
+@media only screen and (max-width: 1000px) {
+
+
+  body, html {
+    height: 100%;
+    background-image: none ;
+    background-color: #333333 !important;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #photo{
+    visibility: visible !important;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
+  .line{
+    visibility: visible;
+  }
+  .plogo{
+    font-size:30px !important;
+  }
+  .klogo{
+    font-size: 30px !important;
+  }
+
+  .topnav-right a{
+    font-size: 15px !important;
+    padding: 5px 10px !important; 
+  }
+
+  .hero-text {
+    left: 50%;
+    top: 60%;
+  }
+
+  .hero-text h1{
+    font-size: 35px !important;
+  }
+
+  .webdev{
+    font-size: 20px !important;
+  }
+
+  #socials{
+    display: flex;
+    flex-direction: row !important;
+    margin: auto !important;
+    position: fixed;
+    left: 15%;
+  }
+
+  #aboutme p{
+    font-size: 15px;
+    width: 300px;
+  }
+  #aboutme{
+    margin-top: -200px;
+  }
+/* Projects Page */
+
+  h1{
+    font-size: 25px;
+  }
+
+ 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.979);
+  max-width: 300px;
+  height: 520px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-bottom: 30px;
+  
+}
+
+.project-description{
+  margin: 10px 35px;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-img{
+    height:200px;
+}
+
+#projectlink{
+  padding: 15px 0px 15px 0px;
+ 
+}
+#projectlink a{
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+#project-cards-row1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#project-cards-row2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+}
+
+
+.techused{
+    color: rgba(245, 70, 70, 0.829);
+    font-weight: 900;
+}
+
+.card h1{
+    background-color: teal;
+    padding: 5px 0;
+    margin: 0px 0px 30px 0px;
+}
+
+.webdevcontact{
+  font-size: 20px;
+}
+
+}
