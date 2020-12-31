@@ -197,15 +197,13 @@ a {
     margin: auto;
     margin-top: 40px;
     padding-bottom: 10px;
-  
     text-align: center;
   }
-  .hello {
-    margin-top: 115px;
-  }
+
 
   .line{
     visibility: visible;
+    margin-bottom: 10px;
   }
   .plogo{
     font-size:30px !important;
@@ -220,12 +218,14 @@ a {
   }
 
   .hero-text {
-    left: 50%;
-    top: 60%;
+  top: 60%;
+  left: 50%;
+  margin-top: 50px;
   }
 
   .hero-text h1{
     font-size: 35px !important;
+    text-align: center;
   }
 
   .webdev{
@@ -250,5 +250,7 @@ a {
     font-size: 20px;
     font-weight: lighter;
   }
-
+  #contacttext{
+    margin-bottom: -10px !important;
+  }
 }
