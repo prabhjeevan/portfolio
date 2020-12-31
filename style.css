@@ -231,10 +231,9 @@ a {
 
   #socials{
     display: flex;
-    flex-direction: row !important;
+    flex-direction: column !important;
     margin: auto !important;
-    position: fixed;
-    left: 15%;
+    
   }
 
   #aboutme p{
