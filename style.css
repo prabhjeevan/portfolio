@@ -196,9 +196,12 @@ a {
     visibility: visible !important;
     margin: auto;
     margin-top: 40px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 10px;
+  
     text-align: center;
+  }
+  .hello {
+    margin-top: 115px;
   }
 
   .line{
