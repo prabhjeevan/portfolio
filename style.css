@@ -411,9 +411,9 @@ body.nav-active .nav__list-item:nth-child(4) {
 
 .contactcontainer{
   font-family: 'Montserrat';
-  margin-top: 60px;
+  margin-top: 150px;
   box-shadow: 00px 0px 100px #ffffff;
-  padding: 35px;
+  padding: 15px 35px 15px 35px;
   border-radius: 1%;
   max-width: 400px;
   display: flex;
@@ -421,12 +421,12 @@ body.nav-active .nav__list-item:nth-child(4) {
   align-items: center;
   justify-content: center;
   text-align: left;
-  margin-bottom: -30px;
+  margin-bottom: -100px;
 }
 .form-group{
   width: 100%;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bolder;
 }
 .form-group input,
@@ -435,7 +435,7 @@ body.nav-active .nav__list-item:nth-child(4) {
   padding:5px;
   font-size: 18px;
   border: 1px solid white;
-  margin-top: 7px;
+  margin-top: 2px;
 }
 textarea{
   resize: vertical;
@@ -462,6 +462,7 @@ textarea{
    background-position: right center; /* change the direction of the change here */
    color: #fff;
    text-decoration: none;
+   
  }
 #status{
   text-align: center;
