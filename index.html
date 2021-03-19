@@ -4,15 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="clock.css">
+  <link rel="stylesheet" href="about.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
   
   <title>Prabhjeevan Kalra</title>
 </head>
 <body>
+
+  
   <div id="body">
+
+
     <div class="topnav">
-      <p class="plogo">P</p>
+      <div class="menu-icon">
+        <span style="color:rgba(255, 255, 255, 0.918);"><i class="fas fa-align-justify fa-3x"></i></span>
+        
+      </div>
+      
+      <div class="nav">
+        <div class="nav__content">
+          <div class="nav__list">
+            <a href="/" id="homenav" id="navhome" class="nav__list-item">Home</a>
+            <a href="/about.html" id="navabout" class="nav__list-item">About</a>
+            <a href="/projects.html" id="navproject" class="nav__list-item">Projects</a>
+            <a href="/contact.html" id="navcontact" class="nav__list-item">Contact</a>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- <p class="plogo">P</p>
       <p class="klogo">K</p>
       <div class="topnav-right">
         <a class="active" href="/">Home</a>
@@ -20,31 +46,129 @@
         <a href="/projects.html">Projects</a>
         <a href="/contact.html">Contact</a>
    
-      </div>
+      </div> -->
     </div>
 
     <div id="photo">
       <img src="https://i.imgur.com/Y220PgR.jpg" alt="My Photo" width="170" height="170">
     </div>
- 
+
+<div id="clockbox">      
+<div class="clock">
+  <div class="hr">
+    <div class="strip">
+      <div class="number">0</div>
+      <div class="number">1</div>
+      <div class="number">2</div>
+    </div>
+    <div class="strip">
+      <div class="number">0</div>
+      <div class="number">1</div>
+      <div class="number">2</div>
+      <div class="number">3</div>
+      <div class="number">4</div>
+      <div class="number">5</div>
+      <div class="number">6</div>
+      <div class="number">7</div>
+      <div class="number">8</div>
+      <div class="number">9</div>
+    </div>
+  </div>
+  <div class="min">
+    <div class="strip">
+      <div class="number">0</div>
+      <div class="number">1</div>
+      <div class="number">2</div>
+      <div class="number">3</div>
+      <div class="number">4</div>
+      <div class="number">5</div>
+    </div>
+    <div class="strip">
+      <div class="number">0</div>
+      <div class="number">1</div>
+      <div class="number">2</div>
+      <div class="number">3</div>
+      <div class="number">4</div>
+      <div class="number">5</div>
+      <div class="number">6</div>
+      <div class="number">7</div>
+      <div class="number">8</div>
+      <div class="number">9</div>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="strip">
+      <div class="number">0</div>
+      <div class="number">1</div>
+      <div class="number">2</div>
+      <div class="number">3</div>
+      <div class="number">4</div>
+      <div class="number">5</div>
+    </div>
+    <div class="strip">
+      <div class="number">0</div>
+      <div class="number">1</div>
+      <div class="number">2</div>
+      <div class="number">3</div>
+      <div class="number">4</div>
+      <div class="number">5</div>
+      <div class="number">6</div>
+      <div class="number">7</div>
+      <div class="number">8</div>
+      <div class="number">9</div>
+    </div>
+  </div>
+</div>
+    </div>
 
     <div class="hero-text">
       <p class="hello">Hello, I'm</p>
-      <h1 class="myname">Prabhjeevan Kalra</h1>
+      <h1 class="myname">PRABHJEEVAN KALRA</h1>
       <p class="webdev">WEB DEVELOPER/DESIGNER</p>
  
     <br>
     <br>
-      <div id="socials">
+    <div id="wrapper">
+      <a href="https://github.com/prabhjeevan" target="_blank" class="my-super-cool-btn">
+        <div class="dots-container">
+        
+        </div> 
+        <div id="socials">
+        <span>
+          <i class="fab fa-github fa-2x" aria-hidden="true"></i></span>
+        </div>
+      </a>
+    <a href="https://www.linkedin.com/in/prabhjeevan-kalra-b8866b107/"  target="_blank" class="my-super-cool-btn">
+        <div class="dots-container">
+
+        </div> 
+        <div id="socials">
+        <span>
+           <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></span>
+        </div>
+      </a>
+    <a href="https://drive.google.com/file/d/186fxjkfNgIwEsRpkCecRpp4wqUwn01c6/view?usp=sharing"  target="_blank" class="my-super-cool-btn">
+        <div class="dots-container">
+
+        </div> 
+        <div id="socials">
+        <span>
+         <i class="far fa-file fa-2x" aria-hidden="true"></i></span>
+        </div>
+      </a>
+    </div>
+
+      <!-- <div id="socials">
         <a href="https://github.com/prabhjeevan" target="_blank">
           <i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/prabhjeevan-kalra-b8866b107/"  target="_blank">
           <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
         <a href="https://drive.google.com/file/d/186fxjkfNgIwEsRpkCecRpp4wqUwn01c6/view?usp=sharing"  target="_blank">
         <i class="far fa-file fa-2x" aria-hidden="true"></i></a>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
 </body>
+<script type="module" src="main.js"></script>
 </html>
