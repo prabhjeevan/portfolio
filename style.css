@@ -123,6 +123,9 @@ float: right;
 #socials{
   margin-top: 50px;
 }
+#contactsocials{
+  margin-top: 20px;
+}
 /* About me Page */
 #aboutme{
   font-size: 15px;
@@ -225,7 +228,25 @@ a {
   box-sizing:border-box;
   margin: 0px 10px;
 }
+.my-super-cool-btn-contact{
+  position:relative;
+  text-decoration:none;
+  color:#fff;
+  letter-spacing:1px;
+  font-size:0.9rem;
+  box-sizing:border-box;
+  margin: 0px 10px;
+}
 .my-super-cool-btn span{
+  position:relative;
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100px;
+  height:100px;
+}
+.my-super-cool-btn-contact span{
   position:relative;
   box-sizing:border-box;
   display:flex;
@@ -246,11 +267,32 @@ a {
   transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
   box-shadow: 0 30px 85px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
 }
+.my-super-cool-btn-contact span:before{
+  content:'';
+  width:60%;
+  height:60%;
+  display:block;
+  position:absolute;
+  border-radius:100%;
+  border:6px solid #f9fbfd;
+  box-sizing:border-box;
+  transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
+  box-shadow: 0 30px 85px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+}
 .my-super-cool-btn:hover span:before{
   transform:scale(0.8);
   box-shadow: 0 20px 55px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
 }
+.my-super-cool-btn-contact:hover span:before{
+  transform:scale(0.8);
+  box-shadow: 0 20px 55px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+}
 .my-super-cool-btn .dots-container{
+  opacity:0;
+  animation: intro 1.6s;
+  animation-fill-mode: forwards;
+}
+.my-super-cool-btn-contact .dots-container{
   opacity:0;
   animation: intro 1.6s;
   animation-fill-mode: forwards;
@@ -440,6 +482,11 @@ body.nav-active .nav__list-item:nth-child(4) {
 textarea{
   resize: vertical;
   width: 100%;
+  height: 70px;
+}
+.contactcontainer h1{
+  font-size: 22px;
+  font-family: 'Montserrat';
 }
 .contactcontainer button{
   background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd596  51%, #00d2ff  100%);
