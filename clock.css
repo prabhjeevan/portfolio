@@ -1,8 +1,12 @@
 .clock{
     box-sizing: border-box;
     padding: 0;
-    margin-top: -750px;
+    margin-top: -720px;
     margin-left: 100px;
+  }
+  .clockbox{
+      display: flex;
+      flex-direction: column;
   }
   .clock  {
     font-family: monospace;
@@ -59,3 +63,12 @@
     
   }
   
+#clocktitle{
+    font-size: 30px;
+    position: fixed;
+    margin-top: 17%;
+    margin-left: 3%;
+    color: white;
+    max-width: 100px;
+    font-family: 'montserrat';
+}

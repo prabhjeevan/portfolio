@@ -326,7 +326,7 @@ body {
   width: 100%;
   text-align: center;
   font-size: calc(2vw + 10px);
-  font-weight: 200;
+  font-weight: 250;
   cursor: pointer;
 }
 .nav__list-item {
@@ -399,8 +399,10 @@ body.nav-active .nav__list-item:nth-child(4) {
 }
 
 .nav__list a{
-  font-size: 40px;
-  margin-left: 13%;
+  font-size: 30px;
+  margin-left: 11%;
+  display: flex;
+
 }
 
 #aboutheading {
