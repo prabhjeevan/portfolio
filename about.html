@@ -7,12 +7,35 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500&family=Krona+One&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
   <title>About Me</title>
 </head>
 <body>
 
-    <div class="topnav">
+
+  <div class="topnav">
+    <div class="menu-icon">
+      <span style="color:rgba(255, 255, 255, 0.918);"><i class="fas fa-align-justify fa-3x"></i></span>
+    </div>
+    
+    <div class="nav">
+      <div class="nav__content">
+        <div class="nav__list">
+          <a href="/" id="homenav" id="navhome" class="nav__list-item">Home</a>
+          <a href="/about.html" id="navabout" class="nav__list-item">About</a>
+          <a href="/projects.html" id="navproject" class="nav__list-item">Projects</a>
+          <a href="/contact.html" id="navcontact" class="nav__list-item">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- <div class="topnav">
       <p class="plogo">P</p>
       <p class="klogo">K</p>
       <div class="topnav-right">
@@ -22,10 +45,12 @@
         <a href="/contact.html">Contact</a>
       </div>
     </div>
-  
-
-    <div class="hero-text">
+   -->
+    <div class="hero-text2">
+      <div>
+      </div>
         <div id="aboutme">
+          <h1 id="aboutheading" style="font-size: 45px;"> ABOUT ME</h1>
       <p id="brand-statement">I am a full stack developer coming from a background in science and graphic designing. My
         pursuit of becoming a developer arose from my lifelong passion for entrepreneurship; both
         focusing on bringing ideas into reality through innovation and problem solving.</p>
@@ -33,15 +58,45 @@
           currently seeking employment in an environment where I can apply and further strengthen my knowledge as a developer. </p>
         </div>
 
-        <div id="socials" class="aboutsocials">
+        <div id="wrapper">
+          <a href="https://github.com/prabhjeevan" target="_blank" class="my-super-cool-btn">
+            <div class="dots-container">
+            
+            </div> 
+            <div id="socials">
+            <span>
+              <i class="fab fa-github fa-2x" aria-hidden="true"></i></span>
+            </div>
+          </a>
+        <a href="https://www.linkedin.com/in/prabhjeevan-kalra-b8866b107/"  target="_blank" class="my-super-cool-btn">
+            <div class="dots-container">
+    
+            </div> 
+            <div id="socials">
+            <span>
+               <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></span>
+            </div>
+          </a>
+        <a href="https://drive.google.com/file/d/186fxjkfNgIwEsRpkCecRpp4wqUwn01c6/view?usp=sharing"  target="_blank" class="my-super-cool-btn">
+            <div class="dots-container">
+    
+            </div> 
+            <div id="socials">
+            <span>
+             <i class="far fa-file fa-2x" aria-hidden="true"></i></span>
+            </div>
+          </a>
+        </div>
+        <!-- <div id="socials" class="aboutsocials">
             <a href="https://github.com/prabhjeevan" target="_blank">
               <i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/prabhjeevan-kalra-b8866b107/"  target="_blank">
               <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
             <a href="https://drive.google.com/file/d/186fxjkfNgIwEsRpkCecRpp4wqUwn01c6/view?usp=sharing"  target="_blank">
             <i class="far fa-file fa-2x" aria-hidden="true"></i></a>
-          </div>
+          </div> -->
     </div>
   </div>
 </body>
+<script type="module" src="main.js"></script>
 </html>
