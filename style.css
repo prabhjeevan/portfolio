@@ -6,8 +6,10 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient( 179.4deg,  rgba(33,150,243,1) 1.8%, rgba(22,255,245,0.60) 97.1% );
-
-   
+  
+}
+.mobile {
+  visibility: hidden;
 }
 
 /* The hero image */
@@ -541,36 +543,25 @@ textarea{
 
 @media only screen and (max-width: 1000px) {
 
+.desktop {
+  visibility: hidden;
+}
+.mobile{
+  visibility: visible;
+}
+body, html {
+  height: 100%;
+  /* background-image: url(https://i.imgur.com/OjjGnsN.jpg); */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient( 179.4deg,  rgba(33,150,243,1) 1.8%, rgba(22,255,245,0.60) 97.1% );
 
-  body, html {
-    height: 100%;
-    background-image: none ;
-    background-color: #333333 !important;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #photo{
-    visibility: visible !important;
-    margin: auto;
-    margin-top: 40px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
+}
 
 
-  .line{
-    visibility: visible;
-    margin-bottom: 10px;
-  }
-  .plogo{
-    font-size:30px !important;
-  }
-  .klogo{
-    font-size: 30px !important;
-  }
+ 
 
   .topnav-right a{
     font-size: 15px !important;
@@ -580,7 +571,7 @@ textarea{
   .hero-text {
   top: 60%;
   left: 50%;
-  margin-top: 50px;
+
   }
 
  
@@ -593,13 +584,7 @@ textarea{
     font-size: 20px !important;
   }
 
-  #socials{
-    display: flex;
-    flex-direction: column !important;
-    margin: auto !important;
-    
-  }
-
+  
   #aboutme p{
     font-size: 15px;
     width: 300px;
@@ -614,5 +599,22 @@ textarea{
   #contacttext{
     margin-bottom: -10px !important;
   }
+
+  .topnav{
+    margin-top: -60px;
+  }
+  .navbar{
+  margin-top: -120px;
+  }
+  .navbar-toggler{
+    width: 70px;
+    height: 70px;
+    background-color: white !important;
+  }
+  .navbar-nav li {
+    font-family: 'Montserrat';
+    color: white;
+  }
+ 
 }
 
