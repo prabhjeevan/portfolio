@@ -475,8 +475,8 @@ header h1{
 	text-align: center;
   font-weight: bolder;
   font-size: 17px;
-  min-height: 470px;
-  max-height: 470px;
+  min-height: 500px;
+  max-height: 5000px;
 }
 
 .card h1{
@@ -499,14 +499,40 @@ header h1{
   margin: 3px 15px;
   color: rgba(27, 45, 94, 0.829);
 }
-
-
+.mobile{
+  visibility: hidden;
+}
 
 
 
 
 @media only screen and (max-width: 1000px) {
 
+  .desktop {
+    visibility: hidden;
+  }
+  .mobile{
+    visibility: visible;
+  }
+
+  .navbar{
+    margin-top: 10px;
+    z-index: 1;
+    
+    }
+    .navbar-toggler{
+      width: 70px;
+      height: 70px;
+      background-color: rgba(141, 192, 250, 0.5) !important;
+    }
+    .navbar-nav li {
+      font-family: 'Montserrat';
+      color: white;
+    }
+   header{
+     margin-top: 10px;
+   }
+  }  
 
   /* body, html {
     height: 100%;
