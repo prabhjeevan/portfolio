@@ -81,8 +81,10 @@
 
  
     .clock-container{
+        position: fixed;
         margin:0 auto;
-        margin-top: 40px;
+        top:10%;
+        left: 25%;
     }
     .clock-timer:before {
         color: #fff;
