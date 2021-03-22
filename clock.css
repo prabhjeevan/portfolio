@@ -1,77 +1,8 @@
-/* .clock{
-    box-sizing: border-box;
-    padding: 0;
-    margin-top: -720px;
-    margin-left: 100px;
-  }
+
   .clockbox{
       display: flex;
       flex-direction: column;
   }
-  .clock  {
-    font-family: monospace;
-    font-size: 2vmin;
-    min-height: 270vh;
-    display: grid;
-    overflow: hidden;
-    place-items: center;
-    /* background: linear-gradient(-45deg, #c4d2ef, #dfe6f6); */
-    max-width: 900px;
-
-  }
-  .hr,
-  .min,
-  .sec {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vmin;
-    grid-row: 1/2;
-    align-items: start;
-  }
-  .number {
-    user-select: none;
-    width: 5vmin;
-    height: 5vmin;
-    display: grid;
-    place-items: center;
-    color: #f9fbfd;
-    transition: all 500ms 100ms ease;
-    border-radius: 50%;
-  }
-  .number.pop {
-    color: #3e6ccb;
-    font-weight: bold;
-    font-size: 2.5vmin;
-    transform: scale(1.);
-    background-color: #dfe6f6;
-    box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd, 1vmin 1vmin 2vmin #a9bee8;
-  }
-  .strip {
-    transition: transform 500ms ease-in-out;
-    border-radius: 1vmin;
-    background-color: #dfe6f6;
-    box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd, 1vmin 1vmin 2vmin #a9bee8;
-  }
-  .clock {
-    display: grid;
-    grid-template-columns: repeat(3, 0.25fr);
-    grid-gap: 6vmin;
-    height: 1vmin;
-    position: fixed;
-    padding: 0 15vmin;
-   
-    
-  }
-  
-#clocktitle{
-    font-size: 30px;
-    position: fixed;
-    margin-top: 17%;
-    margin-left: 3%;
-    color: white;
-    max-width: 100px;
-    font-family: 'montserrat';
-} */
 
 .clock-day:before {
     content: var(--timer-day);
@@ -146,17 +77,41 @@
     
   }
   
-  @media (max-width: 825px) {
-    .clock-container {
-      flex-direction: column;
-      padding-top: 40px;
-      padding-bottom: 40px;
+  @media (max-width: 1000px) {
+
+ 
+    .clock-container{
+        margin:0 auto;
+        margin-top: 40px;
     }
+    .clock-timer:before {
+        color: #fff;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+      }
+      .clock-label {
+        color: rgba(255, 255, 255, 0.671);
+        text-transform: uppercase;
+        font-size:0.8rem;
+        margin-top: 15px;
+        
+      }
   
-    .clock-col + .clock-col {
-      margin-top: 20px;
+      .clock-col {
+        text-align: center;
+        margin-right: 2px;
+        min-width: 100px;
+        position: relative;
+      }
+      .clock-col:not(:last-child):before, .clock-col:not(:last-child):after {
+        content: "";
+        background-color: rgba(255, 255, 255, 0.582);
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        right: -13px;
+        margin-top: -5px;
+      }
     }
-    .clock-col:before, .clock-col:after {
-      display: none !important;
-    }
-  }
