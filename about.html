@@ -8,16 +8,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500&family=Krona+One&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <title>About Me</title>
 </head>
 <body>
 
 
-  <div class="topnav">
+  <div class="topnav desktop">
     <div class="menu-icon">
       <span style="color:rgba(255, 255, 255, 0.918);"><i class="fas fa-align-justify fa-3x"></i></span>
     </div>
@@ -46,7 +50,8 @@
       </div>
     </div>
    -->
-    <div class="hero-text2">
+
+    <div class="hero-text2 ">
       <div>
       </div>
         <div id="aboutme">
@@ -96,6 +101,81 @@
             <i class="far fa-file fa-2x" aria-hidden="true"></i></a>
           </div> -->
     </div>
+  </div>
+  <div id="body" class="mobile">
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style= "background-color: #1a9cf8f6">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" >
+      <ul class="navbar-nav" >
+        <li class="nav-item " > 
+          <a class="nav-link" href="/" id="homenav" >Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/about.html" >About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="/contact.html" >Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="hero-text2">
+    <div>
+    </div>
+      <div id="aboutme">
+        <h1 id="aboutheading" style="font-size: 45px;"> ABOUT ME</h1>
+    <p id="brand-statement">I am a full stack developer coming from a background in science and graphic designing. My
+      pursuit of becoming a developer arose from my lifelong passion for entrepreneurship; both
+      focusing on bringing ideas into reality through innovation and problem solving.</p>
+      <p>I graduated from the Software Engineering Immersive program at General Assembly and am 
+        currently seeking employment in an environment where I can apply and further strengthen my knowledge as a developer. </p>
+      </div>
+
+      <div id="wrapper">
+        <a href="https://github.com/prabhjeevan" target="_blank" class="my-super-cool-btn">
+          <div class="dots-container">
+          
+          </div> 
+          <div id="socials">
+          <span>
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      <a href="https://www.linkedin.com/in/prabhjeevan-kalra-b8866b107/"  target="_blank" class="my-super-cool-btn">
+          <div class="dots-container">
+  
+          </div> 
+          <div id="socials">
+          <span>
+             <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      <a href="https://drive.google.com/file/d/186fxjkfNgIwEsRpkCecRpp4wqUwn01c6/view?usp=sharing"  target="_blank" class="my-super-cool-btn">
+          <div class="dots-container">
+  
+          </div> 
+          <div id="socials">
+          <span>
+           <i class="far fa-file fa-2x" aria-hidden="true"></i></span>
+          </div>
+        </a>
+      </div>
+  </div>
+      <!-- <div id="socials" class="aboutsocials">
+          <a href="https://github.com/prabhjeevan" target="_blank">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/prabhjeevan-kalra-b8866b107/"  target="_blank">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a href="https://drive.google.com/file/d/186fxjkfNgIwEsRpkCecRpp4wqUwn01c6/view?usp=sharing"  target="_blank">
+          <i class="far fa-file fa-2x" aria-hidden="true"></i></a>
+        </div> -->
   </div>
 </body>
 <script type="module" src="main.js"></script>

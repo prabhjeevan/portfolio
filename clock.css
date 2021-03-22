@@ -84,7 +84,6 @@
         position: fixed;
         margin:0 auto;
         top:10%;
-        left: 25%;
     }
     .clock-timer:before {
         color: #fff;
