@@ -551,7 +551,7 @@ textarea{
   visibility: visible;
 }
 body, html {
-
+height: 110%;
   /* background-image: url(https://i.imgur.com/OjjGnsN.jpg); */
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
   background-position: center;
@@ -634,8 +634,10 @@ body, html {
   margin-top: 20px;
 }
 .contactcontainer{
-  margin-top: -100px;
+  margin-top: -50px;
 }
-
+#contacttext{
+  max-height: 100%;
+}
 
 }
